@@ -1,11 +1,11 @@
 <h1 align="center">Oi 👋, Eu sou o Hidélgio</h1>
-<h3 align="center"> 👀 Apaixonado por programação mobile e web</h3>
+<h3 align="center"> 👀 Apaixonado por Programação </h3>
 
-- Actualmente estou aprendendo **PHP, JavaScript e trabalhar com frameworks com Laravel,Quasar e mais...**
+- Actualmente estou aprendendo **PHP, JavaScript e trabalhar com frameworks como Laravel, Quasar e Vue.js...**
 
 - Estudante na Universidade Joaquim Chissano  [http://ujc.ac.mz/](http://ujc.ac.mz/)
 
-- Pode me contactar pelo email **hidelgionovela@gmail.com ou hidelgionovela@outlook.com**
+- Pode me contactar pelo email **hidelgionovela@outlook.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
