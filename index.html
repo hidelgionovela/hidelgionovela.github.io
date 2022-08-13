@@ -164,51 +164,52 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-xl-7">
                         
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN" method="post">
+                        <form id="contactForm" action="https://formsubmit.co/cae7772983e563423832fa8abd833d64" method="post">
                             <!-- Name input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Nome Completo</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">Digita seu nome.</div>
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." name="nome" required />
+                                <label for="name">Nome</label>
+                                <!-- <div class="invalid-feedback" data-sb-feedback="name:required">Digita seu nome.</div> -->
                             </div>
                             <!-- Email address input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" name="email" required />
                                 <label for="email">Email</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">Digita seu email.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email invalido.</div>
+                                <!-- <div class="invalid-feedback" data-sb-feedback="email:required">Digita seu email.</div> -->
+                                <!-- <div class="invalid-feedback" data-sb-feedback="email:email">Email invalido.</div> -->
                             </div>
                             <!-- Phone number input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <input class="form-control" id="phone" type="tel" placeholder="(+258) 842749000" name="telefone" required />
                                 <label for="phone">Telefone</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">Digita seu numero de telefone.</div>
+                                <!-- <div class="invalid-feedback" data-sb-feedback="phone:required">Digita seu numero de telefone.</div> -->
                             </div>
                             <!-- Message input-->
                             <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." name="menssagem" style="height: 10rem" required></textarea>
                                 <label for="message">Mensagem</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">Escreva uma mensagem.</div>
+                                <!-- <div class="invalid-feedback" data-sb-feedback="message:required">Escreva uma mensagem.</div> -->
                             </div>
                             <!-- Submit success message-->
                             <!---->
                             <!-- This is what your users will see when the form-->
                             <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
+                            <!-- <div class="d-none" id="submitSuccessMessage">
                                 <div class="text-center mb-3">
                                     <div class="fw-bolder">Form submission successful!</div>
                                     To activate this form, sign up at
                                     <br />
                                     
                                 </div>
-                            </div>
+                            </div> -->
                             <!-- Submit error message-->
                             <!---->
-                            <!-- This is what your users will see when there is-->
+                            <!-- This is what your users will see when there is -->
                             <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Erro ao enviar!</div></div>
+                            <!-- <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Erro ao enviar!</div></div> -->
                             <!-- Submit Button-->
-                            <a href="index.html"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit"> Enviar </button></a>
+                            <input type="hidden" name="_next" value="https://hidelgionovela.github.io/thanks.html">
+                            <button class="btn btn-primary btn-xl " id="submitButton" type="submit"> Enviar </button>
                         </form>
                     </div>
                 </div>
